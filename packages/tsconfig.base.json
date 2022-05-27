@@ -5,7 +5,7 @@
     "lib": ["es6", "dom"],
     "sourceMap": true,
     "allowJs": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "moduleResolution": "node",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
@@ -14,6 +14,8 @@
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
-    "composite": true
+    "composite": true,
+    "allowSyntheticDefaultImports":true,
+    "skipLibCheck":true
   }
 }
