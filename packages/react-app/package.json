@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^5.1.3",
-    "component-a": "*",
+    "uiblocks": "*",
     "react": "^18.1.0",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.1.0",

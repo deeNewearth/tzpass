@@ -1,8 +1,8 @@
 import * as React from 'react'
 import './App.scss'
 
-import {ComponentA} from 'component-a'
-import {ComponentB, MainNav} from 'component-a';
+import {ComponentA} from 'uiblocks'
+import {ComponentB, MainNav} from 'uiblocks';
 
 // Import {} from './components/nav';
 

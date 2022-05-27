@@ -2,6 +2,6 @@
   "files": [],
   "include": [],
   "references": [
-    { "path": "./component-a" }
+    { "path": "./uiblocks" }
   ]
 }
