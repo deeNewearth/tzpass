@@ -4,6 +4,6 @@
   "main": "dist/index.js",
   "license": "MIT",
   "dependencies": {
-    "react": "^16.4.2"
+    "react": "^18.1.0"
   }
 }
