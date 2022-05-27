@@ -1,8 +1,15 @@
 {
   "name": "tzpass",
-  "packageManager": "yarn@3.2.1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
   "private": true,
   "workspaces": [
-    "apps/*"
-  ]
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "yarn workspace react-app start",
+    "build:packages": "npx tsc -b packages",
+    "build:packages:watch": "npx tsc -b packages --watch"
+  }
 }

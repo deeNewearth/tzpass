@@ -18,9 +18,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "composite": true
   },
   "include": [
     "src"
-  ]
+  ],
+  "references": [{"path":"../../libs/fe-comps"}]
 }
