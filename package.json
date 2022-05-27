@@ -8,7 +8,7 @@
     "packages/*"
   ],
   "scripts": {
-    "start": "yarn workspace react-app start",
+    "start": "yarn workspace web-store start",
     "build:packages": "npx tsc -b packages",
     "build:packages:watch": "npx tsc -b packages --watch"
   }
