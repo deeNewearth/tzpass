@@ -1,11 +1,9 @@
 import * as React from "react";
 import "./App.scss";
 
-import { ComponentA } from "uiblocks";
-import { ComponentB, MainNav } from "uiblocks";
-import { Routes, Route } from "react-router-dom";
 
-// Import {} from './components/nav';
+import { MainNav } from "uiblocks";
+import { Routes, Route } from "react-router-dom";
 
 class App extends React.Component {
   public render() {
@@ -13,8 +11,6 @@ class App extends React.Component {
       <div className="App">
         <MainNav />
         
-        <ComponentA />
-        <ComponentB />
         <Routes>
           <Route path="/" element={<div>hello home</div>} />
           <Route path="creator" element={<div>creator here</div>} />
