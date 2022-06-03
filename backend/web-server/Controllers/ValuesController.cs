@@ -14,7 +14,8 @@ namespace backend.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            var t = new components.Class1();
+            return new string[] { "value1", "value2", t.hello() };
         }
 
         // GET api/values/5
