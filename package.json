@@ -8,8 +8,12 @@
     "packages/*"
   ],
   "scripts": {
-    "start": "yarn workspace web-store start",
+    "start": "concurrently --kill-others \"yarn start:web\" \"yarn build:packages:watch\" ",
+    "start:web": "yarn workspace web-store start",
     "build:packages": "npx tsc -b packages",
     "build:packages:watch": "npx tsc -b packages --watch"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.1"
   }
 }
