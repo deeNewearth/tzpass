@@ -16,7 +16,7 @@ export default function ListOfTiles() {
   const tiles = [...Array(5)].map((_, k) => ({ k }));
   return (
     <Container>
-      I am list of tiles
+      I am list of tiles 1.0
       <div>
         {tiles.map((t, i) => (
           <Card key={i} className="my-2">
