@@ -1,1 +1,15 @@
+
+$body-bg: #E5E5E5;
+
 @import "~bootstrap/scss/bootstrap";
+
+.App{
+    background-color: rgb(255 255 255 / 58%);
+    min-height: 100vh;
+
+
+    .card{
+        box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.1), -6px -6px 30px rgba(0, 0, 0, 0.1);
+    }
+}
+   
